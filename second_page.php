@@ -2,11 +2,15 @@
 
 require_once ('Sanitizer.class.php' );
 require_once ('MySqlConn.class.php' );
-
+session_start();
+$_county = $_SESSION['county'];
 ?>
 
 <!doctype html>
 
+<?php
+   
+?>
 
 <html>
 	<head>
@@ -25,7 +29,7 @@ require_once ('MySqlConn.class.php' );
 					<li><a>Add Checklist</a></li>
 					<li><a>Edit Checklist</a></li>
 				</ul>
-				<li><a href="#">>Push Notification</a></li>
+				<li><a href="#">Push Notification</a></li>
 				
 				<li><a href="#">Seasonal Changes</a></li>
 				<ul>
@@ -34,11 +38,11 @@ require_once ('MySqlConn.class.php' );
 					<li><a>Fall</a></li>
 					<li><a>Winter</a></li>
 				</ul>
-				<li><a href="#">>View Damage Reports</a></li>
+				<li><a href="#">View Damage Reports</a></li>
 
 			  </ul>
 			</nav>
-			
+			<h1>Welcome to Ready $_county </h1>
 
 		<footer></footer>
 	</div>
