@@ -1,1 +1,34 @@
 /* Style sheet for Ready Wisconsin web portal - currently empty*/
+
+body{
+    background: #a21219;
+    background: linear-gradient(#a21219, #662225);
+}
+
+#wrapper{
+	margin-left:auto;
+	margin-right:auto;
+	width:960;
+	background: #e8eced;
+}
+
+nav{
+    background: #b3b3b3;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    float:left;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #FFFFFF;
+    background: #;
+}
