@@ -1,18 +1,20 @@
 /* Style sheet for Ready Wisconsin web portal */
 
 body{
-   /*  background: #a21219; */
     background-image: linear-gradient(#a21219, #662225);
 	background-repeat:repeat-x;
     background-attachment:fixed;
+	height: 100%;
 }
 
 /* div that holds main content; also sets background color and position of the content */
 #wrapper{
 	margin-left:auto;
 	margin-right:auto;
+	/* margin-top:0; */
 	width: 960px;
 	background: #e8eced;
+	height: 100%;
 }
 
 /* Main Navigation */
@@ -168,13 +170,28 @@ body{
 /* styles the first header */
 h1{
 	clear: both; /* gets rid of the float for left and right */
-	color: #1f4a80;
-	text-align:center;
-	
+	color: #7F0600;
+	font-size:18px;
+	margin-left:5px;
+		
+}
+p {
+	margin-left:10px;
+	margin-right:10px;
+}
+#one {
+	border-style: ridge;
+	border-color: #807F83;
+	border-width:5px;
+	margin: 5px;
 }
 
 .center {
 	margin-left: auto;
 	margin-right: auto;
 	width: 63%;
+	
+}
+ul {
+margin-right:15px;
 }
