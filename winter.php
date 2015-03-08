@@ -35,7 +35,7 @@ $_county = $_SESSION['county'];
 	<img src="images/wemLogo.png" width="150" height="150" alt="wem"/>
 	</header>
 		<ul id="menu">
-			<li><a href="second_page.html">Home</a></li>
+			<li><a href="second_page.php">Home</a></li>
 			<li>
 				<a href="#">Checklist</a>
 		<ul>
@@ -47,10 +47,10 @@ $_county = $_SESSION['county'];
 			<li>
 				<a href="#">Seasonal Changes</a>
         <ul>
-            <li><a href="#">Spring</a></li>
-            <li><a href="#">Summer</a></li>
-            <li><a href="#">Fall</a></li>
-            <li><a href="#">Winter</a></li>
+            <li><a href="spring.php">Spring</a></li>
+            <li><a href="summer.php">Summer</a></li>
+            <li><a href="fall.php">Fall</a></li>
+            <li><a href="winter.php">Winter</a></li>
 		</ul>
 			</li>
 			<li><a href="#">Damage Report</a></li>
